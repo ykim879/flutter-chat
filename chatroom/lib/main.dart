@@ -1,3 +1,4 @@
+import 'package:chatroom/totalchatrooms.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,21 +21,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class TotalChatRoomsScreen extends StatelessWidget {
-  const TotalChatRoomsScreen({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Chat Room',
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const Scaffold(
-        body: Center(
-          child: Text('Hello World'),
-        ),
-      ),
-    );
-  }
-}
